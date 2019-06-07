@@ -21,7 +21,7 @@ functions:
     events:
       - schedule: cron(30 22 ? * SUN,SAT *)
 
-service: serverless-node-cron
+# service: serverless-node-cron
 
 # provider:
 #   name: aws
