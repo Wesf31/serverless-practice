@@ -9,7 +9,7 @@ module.exports.sendReminderDaily = (event, context, callback) => {
 
     var emailHtml = fs.readFileSync('./dailyReminder.html', 'utf-8');
 
-    var toAndFromAdress = 'wesleyf@ifit.com'
+    var toAndFromAdress = 'wes.fukui@gmail.com'
     var params = {
         Destination: {
             ToAddresses: [toAndFromAdress]
@@ -51,7 +51,7 @@ module.exports.sendReminderWeekend = (event, context, callback) => {
 
     var emailHtml = fs.readFileSync('./weekendReminder.html', 'utf-8');
 
-    var toAndFromAdress = 'wesleyf@ifit.com'
+    var toAndFromAdress = 'wes.fukui@gmail.com'
     var params = {
         Destination: {
             ToAddresses: [toAndFromAdress]
